@@ -111,13 +111,11 @@ input,select,textarea{color-scheme:dark}
   <div style="padding:22px 18px 14px;border-bottom:1px solid rgba(16,185,129,0.1)">
     <div style="display:flex;align-items:center;gap:9px">
       <div style="width:36px;height:36px;background:linear-gradient(135deg,#10b981,#059669);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><i class="fa fa-bolt" style="color:#fff;font-size:16px"></i></div>
-      <div><div style="font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.07em;color:#f1f5f9;line-height:1">FITTRACK</div><div style="font-size:9.5px;color:#10b981;font-weight:600;letter-spacing:.14em">RECOMP PRO</div></div>
+      <div><div style="font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;letter-spacing:.07em;color:#f1f5f9;line-height:1">FITTRACK</div><div style="font-size:9.5px;color:#10b981;font-weight:600;letter-spacing:.14em">RECOMP · 69KG</div></div>
     </div>
   </div>
   <nav style="padding:10px 0;flex:1;overflow-y:auto">
-    <div class="nav-item active" data-tab="nutrition" onclick="showTab('nutrition')"><div class="nav-icon"><i class="fa fa-utensils"></i></div><div><div>Dinh Dưỡng</div><div style="font-size:10.5px;color:#334155;margin-top:1px">Nutrition Plan</div></div></div>
-    <div class="nav-item" data-tab="science" onclick="showTab('science')"><div class="nav-icon" style="color:#38bdf8"><i class="fa fa-flask"></i></div><div><div>Khoa Học</div><div style="font-size:10.5px;color:#334155;margin-top:1px">Science + Timer</div></div></div>
-    <div class="nav-item" data-tab="workout" onclick="showTab('workout')"><div class="nav-icon" style="color:#f59e0b"><i class="fa fa-dumbbell"></i></div><div><div>Lịch Tập</div><div style="font-size:10.5px;color:#334155;margin-top:1px">Workout Log</div></div></div>
+    <div class="nav-item active" data-tab="workout" onclick="showTab('workout')"><div class="nav-icon" style="color:#f59e0b"><i class="fa fa-dumbbell"></i></div><div><div>Lịch Tập</div><div style="font-size:10.5px;color:#334155;margin-top:1px">Workout Log</div></div></div>
     <div class="nav-item" data-tab="history" onclick="showTab('history')"><div class="nav-icon" style="color:#a78bfa"><i class="fa fa-calendar-days"></i></div><div><div>Lịch Sử</div><div style="font-size:10.5px;color:#334155;margin-top:1px">History & Stats</div></div></div>
   </nav>
   <div style="padding:14px 16px;border-top:1px solid rgba(71,85,105,0.18)">
@@ -135,270 +133,8 @@ input,select,textarea{color-scheme:dark}
 <!-- MAIN -->
 <div id="main-scroll">
 
-<!-- ═══ PAGE 1: NUTRITION ═══ -->
-<div id="tab-nutrition" class="tab-panel active" style="padding:24px;max-width:1180px">
-  <div style="margin-bottom:22px"><div class="sec-title grad-text">DINH DƯỠNG & RECOMP PROTOCOL</div><div style="font-size:12.5px;color:#64748b;margin-top:3px">Body Recomposition · 26M · 173cm · 69kg · 6-Day Training Split</div></div>
-
-  <!-- Stats Row -->
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:18px">
-    <div class="card" style="text-align:center;border-color:rgba(16,185,129,0.18)">
-      <div style="font-size:10.5px;color:#64748b;letter-spacing:.07em;text-transform:uppercase;margin-bottom:5px">BMR</div>
-      <div class="num-big">1,646</div><div style="font-size:11.5px;color:#64748b;margin-top:3px">kcal / ngày</div>
-      <div style="font-size:10.5px;color:#334155;margin-top:6px">Mifflin-St Jeor</div>
-    </div>
-    <div class="card" style="text-align:center;border-color:rgba(56,189,248,0.18)">
-      <div style="font-size:10.5px;color:#64748b;letter-spacing:.07em;text-transform:uppercase;margin-bottom:5px">TDEE Thực tế</div>
-      <div style="font-family:'Barlow Condensed',sans-serif;font-size:40px;font-weight:900;line-height:1;color:#38bdf8">2,716</div>
-      <div style="font-size:11.5px;color:#64748b;margin-top:3px">kcal / ngày</div>
-      <div style="font-size:10.5px;color:#334155;margin-top:6px">×1.65 (6-day split)</div>
-    </div>
-    <div class="card" style="text-align:center;border-color:rgba(245,158,11,0.18)">
-      <div style="font-size:10.5px;color:#f59e0b;letter-spacing:.07em;text-transform:uppercase;margin-bottom:5px">🎯 Target Recomp</div>
-      <div style="font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:900;line-height:1;color:#fbbf24">2,400</div>
-      <div style="font-size:12px;color:#64748b;margin-top:1px">– 2,450 kcal/ngày</div>
-      <div style="font-size:10.5px;color:#f59e0b;margin-top:6px">Deficit 250–300 kcal</div>
-    </div>
-    <div class="card" style="text-align:center">
-      <div style="font-size:10.5px;color:#64748b;letter-spacing:.07em;text-transform:uppercase;margin-bottom:5px">Protein Target</div>
-      <div class="num-big">155<span style="font-size:18px;color:#64748b;margin-left:2px">g</span></div>
-      <div style="font-size:11.5px;color:#64748b;margin-top:3px">2.25 g/kg body weight</div>
-      <div style="font-size:10.5px;color:#10b981;margin-top:6px">Optimal recomp range</div>
-    </div>
-  </div>
-
-  <!-- Macro + Protein chart row -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px">
-    <div class="card">
-      <div style="font-weight:700;font-size:13.5px;margin-bottom:12px;color:#f1f5f9">Tỷ Lệ Macro Hằng Ngày</div>
-      <div style="display:flex;align-items:center;gap:16px">
-        <div style="width:130px;height:130px;flex-shrink:0"><canvas id="macroChart"></canvas></div>
-        <div style="flex:1">
-          <div style="margin-bottom:9px">
-            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><div style="display:flex;align-items:center;gap:5px"><div style="width:9px;height:9px;border-radius:2px;background:#10b981"></div><span style="font-size:11.5px;color:#94a3b8">Protein</span></div><span style="font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;color:#10b981">155g</span></div>
-            <div class="prog-track" style="height:7px"><div class="prog-fill" style="width:25%;background:#10b981"></div></div>
-            <div style="font-size:10.5px;color:#475569;margin-top:2px">620 kcal · 25%</div>
-          </div>
-          <div style="margin-bottom:9px">
-            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><div style="display:flex;align-items:center;gap:5px"><div style="width:9px;height:9px;border-radius:2px;background:#38bdf8"></div><span style="font-size:11.5px;color:#94a3b8">Carbs</span></div><span style="font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;color:#38bdf8">322g</span></div>
-            <div class="prog-track" style="height:7px"><div class="prog-fill" style="width:53%;background:#38bdf8"></div></div>
-            <div style="font-size:10.5px;color:#475569;margin-top:2px">1,288 kcal · 53%</div>
-          </div>
-          <div>
-            <div style="display:flex;justify-content:space-between;margin-bottom:4px"><div style="display:flex;align-items:center;gap:5px"><div style="width:9px;height:9px;border-radius:2px;background:#f59e0b"></div><span style="font-size:11.5px;color:#94a3b8">Fat</span></div><span style="font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;color:#f59e0b">60g</span></div>
-            <div class="prog-track" style="height:7px"><div class="prog-fill" style="width:22%;background:#f59e0b"></div></div>
-            <div style="font-size:10.5px;color:#475569;margin-top:2px">540 kcal · 22%</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div style="font-weight:700;font-size:13.5px;margin-bottom:12px;color:#f1f5f9">Phân Bổ Protein Theo Bữa</div>
-      <canvas id="proteinChart" height="130"></canvas>
-    </div>
-  </div>
-
-  <!-- Protein Shifting -->
-  <div class="card" style="margin-bottom:18px">
-    <div style="font-weight:700;font-size:13.5px;color:#f1f5f9;margin-bottom:4px">Chiến Lược Bù Đắp Protein (Protein Shifting Strategy)</div>
-    <div style="font-size:11.5px;color:#64748b;margin-bottom:14px">Tổng mục tiêu: 155–190g/ngày · Kích hoạt MPS 4 lần/ngày qua từng bữa ≥28g protein</div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:9px">
-      <div style="background:#112240;border-radius:9px;padding:11px;border-left:3px solid #334155;text-align:center"><div style="font-size:9.5px;color:#64748b;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px">4:30 AM</div><div style="font-size:11px;color:#94a3b8;margin-bottom:5px;font-weight:500">Pre-Workout</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:800;color:#e2e8f0">15<span style="font-size:13px;color:#64748b">g</span></div><div style="font-size:10px;color:#64748b;margin-top:3px">Chuối + 2 Trứng</div></div>
-      <div style="background:#0a2518;border-radius:9px;padding:11px;border-left:3px solid #10b981;text-align:center"><div style="font-size:9.5px;color:#10b981;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px">7:30 AM ⭐</div><div style="font-size:11px;color:#94a3b8;margin-bottom:5px;font-weight:500">Post-Workout</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:800;color:#10b981">55<span style="font-size:13px;color:#64748b">g</span></div><div style="font-size:10px;color:#10b981;margin-top:3px">ANCHOR MEAL</div></div>
-      <div style="background:#112240;border-radius:9px;padding:11px;border-left:3px solid #f59e0b;text-align:center"><div style="font-size:9.5px;color:#f59e0b;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px">12:30 PM ⚠️</div><div style="font-size:11px;color:#94a3b8;margin-bottom:5px;font-weight:500">Canteen Lunch</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:800;color:#fbbf24">20<span style="font-size:13px;color:#64748b">g</span></div><div style="font-size:10px;color:#f59e0b;margin-top:3px">Damage Control</div></div>
-      <div style="background:#0e1e36;border-radius:9px;padding:11px;border-left:3px solid #38bdf8;text-align:center"><div style="font-size:9.5px;color:#38bdf8;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px">3:30 PM 💪</div><div style="font-size:11px;color:#94a3b8;margin-bottom:5px;font-weight:500">Afternoon Snack</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:800;color:#38bdf8">50<span style="font-size:13px;color:#64748b">g</span></div><div style="font-size:10px;color:#38bdf8;margin-top:3px">COMPENSATE</div></div>
-      <div style="background:#112240;border-radius:9px;padding:11px;border-left:3px solid #a78bfa;text-align:center"><div style="font-size:9.5px;color:#a78bfa;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px">7:00 PM</div><div style="font-size:11px;color:#94a3b8;margin-bottom:5px;font-weight:500">Dinner</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:800;color:#a78bfa">40<span style="font-size:13px;color:#64748b">g</span></div><div style="font-size:10px;color:#64748b;margin-top:3px">Thịt heo/gà</div></div>
-      <div style="background:#112240;border-radius:9px;padding:11px;border-left:3px solid #334155;text-align:center"><div style="font-size:9.5px;color:#64748b;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px">10:00 PM</div><div style="font-size:11px;color:#94a3b8;margin-bottom:5px;font-weight:500">Pre-Bed</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:800;color:#64748b">10<span style="font-size:13px;color:#334155">g</span></div><div style="font-size:10px;color:#64748b;margin-top:3px">Sữa ấm (casein)</div></div>
-    </div>
-    <div class="callout" style="margin-top:12px"><strong style="color:#10b981">Tại sao?</strong> Norton & Layman (2006): MPS đạt đỉnh với ~0.40g/kg/bữa (~28g với 69kg). Bữa sáng sau tập (55g) + snack chiều (50g) bù đắp bữa trưa thiếu protein và tận dụng mTOR sensitivity cao sau tập.</div>
-  </div>
-
-  <!-- Pre-workout options -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px">
-    <div class="card" style="border-color:rgba(16,185,129,0.22)">
-      <div style="display:flex;align-items:center;gap:7px;margin-bottom:11px"><span class="badge bg">Option A</span><div style="font-weight:700;font-size:13.5px;color:#f1f5f9">Whole Food (Recommended)</div></div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:10px">
-        <div class="card-sm" style="text-align:center"><div style="font-size:20px;margin-bottom:3px">🍌</div><div style="font-size:12px;font-weight:600;color:#e2e8f0">1 Ripe Banana</div><div style="font-size:10.5px;color:#64748b;margin-top:2px">27g carbs · fast GI</div></div>
-        <div class="card-sm" style="text-align:center"><div style="font-size:20px;margin-bottom:3px">🥚</div><div style="font-size:12px;font-weight:600;color:#e2e8f0">2 Boiled Eggs</div><div style="font-size:10.5px;color:#64748b;margin-top:2px">12g protein · leucine</div></div>
-      </div>
-      <div style="display:flex;gap:8px;font-size:11px;color:#64748b;background:#112240;border-radius:7px;padding:9px">
-        <div style="flex:1;text-align:center"><div style="color:#10b981;font-weight:700;font-size:14px">13g</div><div>Protein</div></div>
-        <div style="flex:1;text-align:center"><div style="color:#38bdf8;font-weight:700;font-size:14px">27g</div><div>Carbs</div></div>
-        <div style="flex:1;text-align:center"><div style="color:#f59e0b;font-weight:700;font-size:14px">10g</div><div>Fat</div></div>
-        <div style="flex:1;text-align:center"><div style="color:#a78bfa;font-weight:700;font-size:14px">252</div><div>kcal</div></div>
-      </div>
-      <div style="font-size:10.5px;color:#475569;margin-top:8px">💡 Luộc 5–7 trứng tối CN để sẵn. Zero prep lúc 4:30 AM.</div>
-    </div>
-    <div class="card" style="border-color:rgba(56,189,248,0.18)">
-      <div style="display:flex;align-items:center;gap:7px;margin-bottom:11px"><span class="badge bs">Option B</span><div style="font-weight:700;font-size:13.5px;color:#f1f5f9">Speed &lt; 3 Phút</div></div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:10px">
-        <div class="card-sm" style="text-align:center"><div style="font-size:20px;margin-bottom:3px">🍌</div><div style="font-size:12px;font-weight:600;color:#e2e8f0">1 Ripe Banana</div><div style="font-size:10.5px;color:#64748b;margin-top:2px">27g carbs</div></div>
-        <div class="card-sm" style="text-align:center"><div style="font-size:20px;margin-bottom:3px">🥛</div><div style="font-size:12px;font-weight:600;color:#e2e8f0">1 Scoop Whey</div><div style="font-size:10.5px;color:#64748b;margin-top:2px">22g protein · fast</div></div>
-      </div>
-      <div style="display:flex;gap:8px;font-size:11px;color:#64748b;background:#112240;border-radius:7px;padding:9px">
-        <div style="flex:1;text-align:center"><div style="color:#10b981;font-weight:700;font-size:14px">23g</div><div>Protein</div></div>
-        <div style="flex:1;text-align:center"><div style="color:#38bdf8;font-weight:700;font-size:14px">29g</div><div>Carbs</div></div>
-        <div style="flex:1;text-align:center"><div style="color:#f59e0b;font-weight:700;font-size:14px">1g</div><div>Fat</div></div>
-        <div style="flex:1;text-align:center"><div style="color:#a78bfa;font-weight:700;font-size:14px">220</div><div>kcal</div></div>
-      </div>
-      <div style="font-size:10.5px;color:#475569;margin-top:8px">+ 5g Creatine vào shake · 400ml nước · Caffeine 30' trước tập</div>
-    </div>
-  </div>
-
-  <!-- Hydration -->
-  <div class="card" style="margin-bottom:18px">
-    <div style="font-weight:700;font-size:13.5px;margin-bottom:12px;color:#f1f5f9">Giao Thức Hydration & Caffeine 4:30 AM</div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px">
-      <div style="background:#112240;border-radius:9px;padding:11px"><div style="font-size:10.5px;color:#38bdf8;font-weight:600;margin-bottom:5px">🌊 NGAY KHI DẬY</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;color:#38bdf8">400–500ml</div><div style="font-size:10.5px;color:#64748b;margin-top:3px">Bù nước mất qua hô hấp ban đêm (200–400ml)</div></div>
-      <div style="background:#112240;border-radius:9px;padding:11px"><div style="font-size:10.5px;color:#f59e0b;font-weight:600;margin-bottom:5px">☕ CAFFEINE TIMING</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;color:#fbbf24">150–200mg</div><div style="font-size:10.5px;color:#64748b;margin-top:3px">Uống <strong style="color:#f59e0b">25–35 phút</strong> trước tập. Peak plasma 45–60' sau uống</div></div>
-      <div style="background:#112240;border-radius:9px;padding:11px"><div style="font-size:10.5px;color:#10b981;font-weight:600;margin-bottom:5px">💧 TRONG KHI TẬP</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;color:#10b981">500–750ml</div><div style="font-size:10.5px;color:#64748b;margin-top:3px">Từng ngụm nhỏ mỗi 15–20 phút. Thêm chút muối nếu đổ nhiều mồ hôi</div></div>
-      <div style="background:#112240;border-radius:9px;padding:11px"><div style="font-size:10.5px;color:#a78bfa;font-weight:600;margin-bottom:5px">🏃 SAU TẬP</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;color:#a78bfa">400–500ml</div><div style="font-size:10.5px;color:#64748b;margin-top:3px">Kết hợp ngay với bữa sáng protein cao (7:30 AM)</div></div>
-    </div>
-  </div>
-
-  <!-- Anti-inflammatory + Supplements -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
-    <div class="card">
-      <div style="font-weight:700;font-size:13.5px;margin-bottom:12px;color:#f1f5f9">Giao Thức Kháng Viêm</div>
-      <table class="data-table">
-        <thead><tr><th>Chất</th><th>Nguồn</th><th>Liều</th><th>Cơ chế</th></tr></thead>
-        <tbody>
-          <tr><td><strong style="color:#f59e0b">Curcumin</strong></td><td>Nghệ (rẻ)</td><td>¼ tsp/ngày</td><td>Ức chế NF-κB, COX-2, giảm IL-6 (DOMS)</td></tr>
-          <tr><td><strong style="color:#10b981">Gingerols</strong></td><td>Gừng tươi</td><td>2cm/ngày</td><td>Ức chế prostaglandin; như ibuprofen</td></tr>
-          <tr><td><strong style="color:#38bdf8">EGCG</strong></td><td>Trà xanh</td><td>2–3 ly/ngày</td><td>Antioxidant; điều tiết cortisol</td></tr>
-          <tr><td><strong style="color:#a78bfa">Papain</strong></td><td>Đu đủ</td><td>150g/ngày</td><td>Enzyme phân giải protein; giảm DOMS</td></tr>
-          <tr><td><strong style="color:#f87171">Piperine</strong></td><td>Tiêu đen</td><td>1 nhúm</td><td>Tăng curcumin bioavailability <strong style="color:#f87171">2,000%</strong></td></tr>
-        </tbody>
-      </table>
-      <div class="callout ca" style="margin-top:10px;font-size:11.5px">⚠️ LUÔN kết hợp nghệ với tiêu đen. Không có piperine, curcumin gần như không được hấp thu.</div>
-    </div>
-    <div class="card">
-      <div style="font-weight:700;font-size:13.5px;margin-bottom:12px;color:#f1f5f9">Supplement Stack</div>
-      <div style="display:flex;flex-direction:column;gap:9px">
-        <div style="background:rgba(16,185,129,0.06);border:1px solid rgba(16,185,129,0.18);border-radius:9px;padding:12px">
-          <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px"><span class="badge bg" style="font-size:10px">TIER 1</span><span style="font-size:11px;color:#64748b">Bắt buộc · ROI cao nhất</span></div>
-          <div style="font-size:12px;color:#94a3b8;display:flex;justify-content:space-between;margin-bottom:4px"><div><strong style="color:#10b981">Creatine Mono</strong> — 5g/ngày · Sau tập</div><span style="color:#10b981;white-space:nowrap">~200k/tháng</span></div>
-          <div style="font-size:12px;color:#94a3b8;display:flex;justify-content:space-between"><div><strong style="color:#10b981">Omega-3 Fish Oil</strong> — 2–3g EPA+DHA · Với bữa ăn</div><span style="color:#10b981;white-space:nowrap">~175k/tháng</span></div>
-        </div>
-        <div style="background:rgba(56,189,248,0.05);border:1px solid rgba(56,189,248,0.15);border-radius:9px;padding:12px">
-          <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px"><span class="badge bs" style="font-size:10px">TIER 2</span><span style="font-size:11px;color:#64748b">Khuyến nghị cao</span></div>
-          <div style="font-size:12px;color:#94a3b8;display:flex;justify-content:space-between;margin-bottom:4px"><div><strong style="color:#38bdf8">Vitamin D3</strong> — 2,000–4,000 IU · Buổi sáng</div><span style="color:#38bdf8;white-space:nowrap">~125k/tháng</span></div>
-          <div style="font-size:12px;color:#94a3b8;display:flex;justify-content:space-between"><div><strong style="color:#38bdf8">Whey Protein</strong> — 1–1.5 scoop · Sau tập/snack</div><span style="color:#38bdf8;white-space:nowrap">~550k/tháng</span></div>
-        </div>
-        <div style="background:rgba(139,92,246,0.05);border:1px solid rgba(139,92,246,0.15);border-radius:9px;padding:12px">
-          <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px"><span class="badge bp" style="font-size:10px">TIER 3</span><span style="font-size:11px;color:#64748b">Tùy chọn · Recovery</span></div>
-          <div style="font-size:12px;color:#94a3b8"><strong style="color:#a78bfa">ZMA</strong> — Trước ngủ 30–60' · <strong style="color:#a78bfa">Sữa ấm 250ml</strong> — Casein chậm tiêu, tăng overnight MPS 22%</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══ PAGE 2: SCIENCE ═══ -->
-<div id="tab-science" class="tab-panel" style="padding:24px;max-width:1080px">
-  <div style="margin-bottom:22px"><div class="sec-title grad-text">KHOA HỌC & CƠ SỞ SINH HỌC</div><div style="font-size:12.5px;color:#64748b;margin-top:3px">Evidence-based · Peer-reviewed research</div></div>
-
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px">
-    <div class="card">
-      <div style="font-weight:700;font-size:13.5px;margin-bottom:3px;color:#f1f5f9">Cửa Sổ MPS (Muscle Protein Synthesis)</div>
-      <div style="font-size:11px;color:#64748b;margin-bottom:12px">Phản ứng 48h sau tập · 2x/tuần vs 1x/tuần</div>
-      <canvas id="mpsChart" height="160"></canvas>
-      <div style="display:flex;gap:12px;margin-top:9px;font-size:10.5px;color:#64748b">
-        <div style="display:flex;align-items:center;gap:4px"><div style="width:12px;height:3px;background:#10b981;border-radius:2px"></div>2x/tuần (chương trình này)</div>
-        <div style="display:flex;align-items:center;gap:4px"><div style="width:12px;height:2px;background:#475569;border-top:2px dashed #475569"></div>1x/tuần (bro split)</div>
-      </div>
-    </div>
-    <div class="card">
-      <div style="font-weight:700;font-size:13.5px;margin-bottom:3px;color:#f1f5f9">Phục Hồi Hệ Năng Lượng ATP-PC</div>
-      <div style="font-size:11px;color:#64748b;margin-bottom:12px">% Phosphocreatine phục hồi theo thời gian nghỉ</div>
-      <canvas id="atpChart" height="160"></canvas>
-    </div>
-  </div>
-
-  <!-- Accordions -->
-  <div style="display:flex;flex-direction:column;gap:7px;margin-bottom:18px">
-    <div><button class="acc-btn open" onclick="toggleAcc(this)"><span><i class="fa fa-chart-line" style="color:#10b981;margin-right:7px"></i>Tại sao 4–5 bài/buổi là tối ưu? (Volume-Quality Curve)</span><i class="fa fa-chevron-down" style="font-size:11px;transition:transform .3s"></i></button>
-    <div class="acc-body open">
-      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:8px 0 12px">
-        <div style="background:rgba(16,185,129,0.1);border-radius:7px;padding:9px;text-align:center"><div style="font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:800;color:#10b981">Sets 1–3</div><div style="font-size:10.5px;color:#94a3b8;margin-top:3px">Chất lượng cao. Motor unit tối đa.</div></div>
-        <div style="background:rgba(56,189,248,0.07);border-radius:7px;padding:9px;text-align:center"><div style="font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:800;color:#38bdf8">Sets 4–5</div><div style="font-size:10.5px;color:#94a3b8;margin-top:3px">Chất lượng tốt. Fatigue nhẹ.</div></div>
-        <div style="background:rgba(245,158,11,0.07);border-radius:7px;padding:9px;text-align:center"><div style="font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:800;color:#fbbf24">Sets 6–8</div><div style="font-size:10.5px;color:#94a3b8;margin-top:3px">Form giảm. Rủi ro chấn thương.</div></div>
-        <div style="background:rgba(239,68,68,0.07);border-radius:7px;padding:9px;text-align:center"><div style="font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:800;color:#f87171">Sets 9+</div><div style="font-size:10.5px;color:#94a3b8;margin-top:3px">Chất lượng thấp. Diminishing returns.</div></div>
-      </div>
-      <div class="callout">4–5 bài × 3–4 sets = 12–20 total sets. <strong style="color:#10b981">Mỗi set thực hiện ở cường độ tối đa có kiểm soát.</strong> Không vội, không giảm form. Bài cuối có chất lượng tương đương bài đầu.</div>
-    </div></div>
-
-    <div><button class="acc-btn" onclick="toggleAcc(this)"><span><i class="fa fa-fire" style="color:#f87171;margin-right:7px"></i>Khoa học giảm mỡ bụng và hông (Belly Fat Reduction)</span><i class="fa fa-chevron-down" style="font-size:11px;transition:transform .3s"></i></button>
-    <div class="acc-body">
-      <div class="callout cr" style="margin-bottom:10px"><strong style="color:#f87171">Spot Reduction là KHÔNG CHÍNH XÁC HOÀN TOÀN:</strong> Không thể đốt mỡ bụng chỉ bằng tập cơ bụng. Nhưng mỡ nội tạng (visceral fat) phản ứng NHANH HƠN với exercise và caloric deficit do mật độ beta-adrenergic receptors cao hơn.</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:10px">
-        <div style="background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.13);border-radius:8px;padding:11px"><div style="font-weight:600;color:#f87171;margin-bottom:5px;font-size:12.5px">🔴 Visceral Fat (Mỡ Nội Tạng)</div><div style="font-size:12px;color:#94a3b8;line-height:1.7">• Beta-adrenergic receptors cao<br>• Lưu lượng máu nhiều → lipolysis nhanh<br>• <strong style="color:#10b981">Bị đốt trước tiên</strong> khi caloric deficit</div></div>
-        <div style="background:rgba(245,158,11,0.05);border:1px solid rgba(245,158,11,0.13);border-radius:8px;padding:11px"><div style="font-weight:600;color:#fbbf24;margin-bottom:5px;font-size:12.5px">🟡 Love Handles (Mỡ Tình Yêu)</div><div style="font-size:12px;color:#94a3b8;line-height:1.7">• Subcutaneous fat · đi cuối cùng<br>• Cần: sustained deficit + insulin thấp<br>• Cortisol ổn định = key factor</div></div>
-      </div>
-      <div class="callout">Chiến lược: Deficit 250–300 kcal + Squat/Deadlift nặng (EPOC 24–36h) + Core work (Ab Rollout, Hanging Leg Raise) + <strong style="color:#f87171">KHÔNG tập Russian Twist/Side Bends nặng</strong> (làm obliques dày → eo rộng hơn).</div>
-    </div></div>
-
-    <div><button class="acc-btn" onclick="toggleAcc(this)"><span><i class="fa fa-stopwatch" style="color:#38bdf8;margin-right:7px"></i>Khoa học thời gian nghỉ & hệ ATP-PC</span><i class="fa fa-chevron-down" style="font-size:11px;transition:transform .3s"></i></button>
-    <div class="acc-body">
-      <table class="data-table" style="margin-bottom:11px">
-        <thead><tr><th>Thời gian nghỉ</th><th>% PCr Phục hồi</th><th>Ứng dụng</th><th>Loại bài tập</th></tr></thead>
-        <tbody>
-          <tr><td style="color:#fbbf24;font-weight:600">30 giây</td><td style="color:#f87171">~50%</td><td>Không dùng</td><td>Circuit only</td></tr>
-          <tr><td style="color:#f59e0b;font-weight:600">60 giây</td><td style="color:#f59e0b">~70–75%</td><td>Isolation nhẹ</td><td>Lateral Raise, Cable Curl</td></tr>
-          <tr><td style="color:#10b981;font-weight:600">75–90 giây</td><td style="color:#10b981">~85–90%</td><td>Secondary compound</td><td>DB Row, Close-grip Bench</td></tr>
-          <tr><td style="color:#38bdf8;font-weight:600">2 phút</td><td style="color:#38bdf8">~95–97%</td><td>Compound chính</td><td>Squat, Bench, OHP, Row</td></tr>
-          <tr><td style="color:#a78bfa;font-weight:600">2 phút 30 giây</td><td style="color:#a78bfa">~99–100%</td><td>Deadlift nặng</td><td>Conventional Deadlift 5–6 reps</td></tr>
-        </tbody>
-      </table>
-      <div class="callout">Ở 60–90s rest, cơ thể dựa vào oxidative phosphorylation để recover → <strong style="color:#10b981">đốt mỡ ngay trong buổi tập</strong>. Compound nặng nghỉ 2:00–2:30 → PCr gần đủ → quality reps → myofibrillar hypertrophy (cơ dày đặc, định hình).</div>
-    </div></div>
-
-    <div><button class="acc-btn" onclick="toggleAcc(this)"><span><i class="fa fa-arrows-left-right" style="color:#a78bfa;margin-right:7px"></i>Bản Thiết Kế V-Taper & Tại sao 2x/tuần Tối Ưu ở Tuổi 26</span><i class="fa fa-chevron-down" style="font-size:11px;transition:transform .3s"></i></button>
-    <div class="acc-body">
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:12px">
-        <div style="background:rgba(16,185,129,0.07);border:1px solid rgba(16,185,129,0.18);border-radius:8px;padding:11px;text-align:center"><div style="font-size:24px;margin-bottom:5px">💪</div><div style="font-weight:600;color:#10b981;margin-bottom:3px;font-size:12px">Lat Width</div><div style="font-size:11px;color:#64748b">Pull-up, Lat Pulldown, Bent Row → Chiều rộng lưng → V-taper</div></div>
-        <div style="background:rgba(56,189,248,0.07);border:1px solid rgba(56,189,248,0.18);border-radius:8px;padding:11px;text-align:center"><div style="font-size:24px;margin-bottom:5px">🦾</div><div style="font-weight:600;color:#38bdf8;margin-bottom:3px;font-size:12px">Lateral Delt</div><div style="font-size:11px;color:#64748b">Lateral Raise, Face Pull → Widest point vai → Illusion eo nhỏ</div></div>
-        <div style="background:rgba(139,92,246,0.07);border:1px solid rgba(139,92,246,0.18);border-radius:8px;padding:11px;text-align:center"><div style="font-size:24px;margin-bottom:5px">⬛</div><div style="font-weight:600;color:#a78bfa;margin-bottom:3px;font-size:12px">Core (Rectus)</div><div style="font-size:11px;color:#64748b">Ab Rollout, Hanging LR → Cơ dọc, không làm eo rộng</div></div>
-      </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:9px">
-        <div style="background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.13);border-radius:8px;padding:11px"><div style="font-weight:600;color:#f87171;margin-bottom:5px;font-size:12px">1x/tuần (Bro Split)</div><div style="font-size:11.5px;color:#94a3b8;line-height:1.7">MPS elevated 2/7 ngày = <strong style="color:#f87171">~29%</strong> tuần trong anabolic state</div></div>
-        <div style="background:rgba(16,185,129,0.07);border:1px solid rgba(16,185,129,0.18);border-radius:8px;padding:11px"><div style="font-weight:600;color:#10b981;margin-bottom:5px;font-size:12px">2x/tuần (Chương trình này)</div><div style="font-size:11.5px;color:#94a3b8;line-height:1.7">MPS elevated 4/7 ngày = <strong style="color:#10b981">~57%</strong> tuần. Schoenfeld 2016: 2x &gt;&gt; 1x.</div></div>
-      </div>
-    </div></div>
-
-    <div><button class="acc-btn" onclick="toggleAcc(this)"><span><i class="fa fa-vial" style="color:#fbbf24;margin-right:7px"></i>Creatine Monohydrate — Đánh Giá & Protocol Chính Xác</span><i class="fa fa-chevron-down" style="font-size:11px;transition:transform .3s"></i></button>
-    <div class="acc-body">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
-        <div><div style="font-weight:600;color:#10b981;margin-bottom:7px;font-size:12.5px">Cơ chế hoạt động</div><div style="font-size:12px;color:#94a3b8;line-height:1.8;background:#112240;border-radius:7px;padding:11px">PCr tăng 20–40% → thêm 1–3 rep/set → +20–25% total volume/buổi → hypertrophy nhanh hơn. 500+ RCTs, evidence grade A+.</div></div>
-        <div><div style="font-weight:600;color:#f59e0b;margin-bottom:7px;font-size:12.5px">Water Retention — Sự thật</div><div style="font-size:12px;color:#94a3b8;line-height:1.8;background:#112240;border-radius:7px;padding:11px">Giữ nước <strong style="color:#10b981">INTRACELLULAR</strong> — bên trong tế bào cơ, gắn glycogen. ✅ Không phải subcutaneous. Cơ nhìn <strong style="color:#10b981">căng, cứng, định hình hơn</strong>.</div></div>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:9px">
-        <div style="background:rgba(16,185,129,0.07);border:1px solid rgba(16,185,129,0.18);border-radius:9px;padding:12px;text-align:center"><div style="font-size:10px;color:#10b981;font-weight:600;margin-bottom:7px">✅ RECOMMENDED</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;color:#10b981">5g</div><div style="font-size:11px;color:#64748b;margin-top:3px">/ngày liên tục<br>Bão hòa 3–4 tuần</div></div>
-        <div style="background:rgba(71,85,105,0.08);border:1px solid rgba(71,85,105,0.18);border-radius:9px;padding:12px;text-align:center"><div style="font-size:10px;color:#64748b;font-weight:600;margin-bottom:7px">OPTIONAL LOADING</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;color:#64748b">20g</div><div style="font-size:11px;color:#64748b;margin-top:3px">×4 lần/ngày · 5–7 ngày<br>Sau đó 3–5g/ngày</div></div>
-        <div style="background:#112240;border-radius:9px;padding:12px"><div style="font-size:10px;color:#38bdf8;font-weight:600;margin-bottom:7px">TIMING</div><div style="font-size:11.5px;color:#94a3b8;line-height:1.8">📅 Ngày tập: Sau tập<br>😴 Ngày nghỉ: Sáng với bữa ăn<br>⚠️ Chỉ dùng Monohydrate</div></div>
-      </div>
-    </div></div>
-  </div>
-
-  <!-- Benchmark -->
-  <div class="card">
-    <div style="font-weight:700;font-size:13.5px;margin-bottom:13px;color:#f1f5f9">📊 Benchmark Tiến Độ 12 Tuần Thực Tế</div>
-    <div style="overflow-x:auto">
-      <table class="data-table">
-        <thead><tr><th>Chỉ số</th><th style="color:#38bdf8">Tuần 4</th><th style="color:#f59e0b">Tuần 8</th><th style="color:#10b981">Tuần 12</th></tr></thead>
-        <tbody>
-          <tr><td>Giảm % body fat</td><td style="color:#38bdf8">−0.5–1%</td><td style="color:#f59e0b">−1.5–2.5%</td><td style="color:#10b981">−2.5–4%</td></tr>
-          <tr><td>Cơ nạc xây thêm</td><td style="color:#38bdf8">0.5–1kg</td><td style="color:#f59e0b">1–2kg</td><td style="color:#10b981">1.5–3kg</td></tr>
-          <tr><td>Chiều rộng vai (visual)</td><td style="color:#38bdf8">Rộng hơn nhẹ</td><td style="color:#f59e0b">Rõ ràng rộng hơn</td><td style="color:#10b981">Cải thiện đáng kể</td></tr>
-          <tr><td>Strength compound lifts</td><td style="color:#38bdf8">+5–10%</td><td style="color:#f59e0b">+10–20%</td><td style="color:#10b981">+15–30%</td></tr>
-          <tr><td>Bụng / Love handles</td><td style="color:#38bdf8">Phẳng nhẹ hơn</td><td style="color:#f59e0b">Rõ ràng phẳng hơn</td><td style="color:#10b981">Lean đáng kể</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
-
 <!-- ═══ PAGE 3: WORKOUT ═══ -->
-<div id="tab-workout" class="tab-panel" style="padding:20px;max-width:960px">
+<div id="tab-workout" class="tab-panel active" style="padding:20px;max-width:960px">
   <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:16px">
     <div class="sec-title grad-text">NHẬT KÝ BUỔI TẬP</div>
     <div id="wk-date" style="font-size:12px;color:#64748b"></div>
@@ -545,9 +281,9 @@ input,select,textarea{color-scheme:dark}
 
 <!-- MOBILE BOTTOM NAV -->
 <nav id="bottom-nav">
-  <div class="bot-item active" data-tab="nutrition" onclick="showTab('nutrition')"><i class="fa fa-utensils"></i><span>Dinh Dưỡng</span></div>
-  <div class="bot-item" data-tab="science" onclick="showTab('science')"><i class="fa fa-flask"></i><span>Khoa Học</span></div>
-  <div class="bot-item" data-tab="workout" onclick="showTab('workout')"><i class="fa fa-dumbbell"></i><span>Lịch Tập</span></div>
+
+
+  <div class="bot-item active" data-tab="workout" onclick="showTab('workout')"><i class="fa fa-dumbbell"></i><span>Lịch Tập</span></div>
   <div class="bot-item" data-tab="history" onclick="showTab('history')"><i class="fa fa-calendar-days"></i><span>Lịch Sử</span></div>
 </nav>
 
@@ -627,9 +363,9 @@ const WP = {
 
 // ══════ STATE ══════
 const S = {
-  tab:'nutrition', day:(new Date().getDay()), log:{exercises:[],activities:[],diet:{calories:'',protein:'',carbs:'',fat:'',foods:[]}},
+  tab:'workout', day:(new Date().getDay()), log:{exercises:[],activities:[],diet:{calories:'',protein:'',carbs:'',fat:'',foods:[]}},
   calY:new Date().getFullYear(), calM:new Date().getMonth(),
-  charts:{}, timerInt:null, timerTotal:0, timerLeft:0, timerPaused:false, timerVisible:false
+  timerInt:null, timerTotal:0, timerLeft:0, timerPaused:false, timerVisible:false
 };
 
 function todayKey(){const d=new Date();return d.toISOString().split('T')[0];}
@@ -644,44 +380,9 @@ function showTab(t){
   const el=document.getElementById('tab-'+t);
   if(el)el.classList.add('active');
   document.querySelectorAll('.nav-item,.bot-item').forEach(n=>n.classList.toggle('active',n.dataset.tab===t));
-  if(t==='nutrition'&&!S.charts.n){initNCharts();S.charts.n=true;}
-  if(t==='science'&&!S.charts.s){initSCharts();S.charts.s=true;}
+
   if(t==='workout'){renderWkPage();}
   if(t==='history'){renderHist();}
-}
-
-// ══════ NUTRITION CHARTS ══════
-function initNCharts(){
-  const c1=document.getElementById('macroChart');
-  if(c1)new Chart(c1,{type:'doughnut',data:{labels:['Protein','Carbs','Fat'],datasets:[{data:[620,1288,540],backgroundColor:['#10b981','#38bdf8','#f59e0b'],borderColor:'#060d18',borderWidth:3,hoverOffset:4}]},options:{responsive:true,maintainAspectRatio:true,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.label+': '+c.raw+' kcal'}}},cutout:'70%'}});
-  const c2=document.getElementById('proteinChart');
-  if(c2)new Chart(c2,{type:'bar',data:{labels:['4:30 AM','7:30 AM','12:30 PM','3:30 PM','7:00 PM','10 PM'],datasets:[{label:'Protein (g)',data:[15,55,20,50,40,10],backgroundColor:['#475569','#10b981','#f59e0b','#38bdf8','#a78bfa','#334155'],borderRadius:5,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'g protein'}}},scales:{x:{grid:{color:'rgba(71,85,105,0.12)'},ticks:{color:'#64748b',font:{size:9.5}}},y:{grid:{color:'rgba(71,85,105,0.12)'},ticks:{color:'#64748b',font:{size:9.5}},beginAtZero:true,max:65}}}});
-}
-
-// ══════ SCIENCE CHARTS ══════
-function initSCharts(){
-  const mc=document.getElementById('mpsChart');
-  if(mc){
-    const hrs=[0,6,12,18,24,30,36,42,48,54,60,66,72,78,84,90,96,102,108,114,120,126,132,138,144,150,156,162,168];
-    function mw(h,off){const t=(h-off+168)%168;if(t>48)return 100;if(t<=6)return 100+t*30;if(t<=24)return 280-(t-6)*8;return Math.max(100,136-(t-24)*1.5);}
-    new Chart(mc,{type:'line',data:{labels:hrs.map(h=>'h'+h),datasets:[
-      {label:'2x/tuần',data:hrs.map(h=>Math.max(mw(h,0),mw(h,84),100)),borderColor:'#10b981',backgroundColor:'rgba(16,185,129,0.07)',fill:true,tension:0.4,pointRadius:0,borderWidth:2.5},
-      {label:'1x/tuần',data:hrs.map(h=>mw(h,0)),borderColor:'#475569',backgroundColor:'rgba(71,85,105,0.04)',fill:true,tension:0.4,pointRadius:0,borderWidth:1.5,borderDash:[5,3]}
-    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'rgba(71,85,105,0.08)'},ticks:{color:'#475569',font:{size:9},maxTicksLimit:7}},y:{grid:{color:'rgba(71,85,105,0.12)'},ticks:{color:'#64748b',font:{size:9.5}},title:{display:true,text:'MPS % baseline',color:'#64748b',font:{size:9.5}}}}}});
-  }
-  const ac=document.getElementById('atpChart');
-  if(ac)new Chart(ac,{type:'bar',data:{labels:['30s','60s','90s','2min','2m30s'],datasets:[{label:'% PCr Recovery',data:[50,72,88,96,99],backgroundColor:['#f87171','#f59e0b','#10b981','#38bdf8','#a78bfa'],borderRadius:5,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw+'% PCr recovered'}}},scales:{x:{grid:{color:'rgba(71,85,105,0.08)'},ticks:{color:'#64748b',font:{size:10}}},y:{grid:{color:'rgba(71,85,105,0.12)'},ticks:{color:'#64748b',font:{size:9.5}},beginAtZero:true,max:100}}}});
-}
-
-// ══════ ACCORDION ══════
-function toggleAcc(btn){
-  const body=btn.nextElementSibling;
-  if(!body)return;
-  const open=body.classList.contains('open');
-  body.classList.toggle('open',!open);
-  btn.classList.toggle('open',!open);
-  const icon=btn.querySelector('.fa-chevron-down');
-  if(icon)icon.style.transform=open?'':'rotate(180deg)';
 }
 
 // ══════ WORKOUT PAGE ══════
@@ -930,7 +631,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   // Auto-select today's workout day button
   setDayBtn(S.day);
   // Init nutrition charts since it's default tab
-  setTimeout(()=>{initNCharts();S.charts.n=true;},100);
+  // default tab: workout
 });
 </script>
 </body>
